@@ -1,4 +1,4 @@
-# trendlens-ai — Fashion Marketing Intelligence
+# trendlens-ai - Fashion Marketing Intelligence
 
 A marketing analytics platform for fashion ecommerce. Upload campaign performance data and get
 KPI analysis, statistically-tested channel comparisons, revenue forecasting with uncertainty
