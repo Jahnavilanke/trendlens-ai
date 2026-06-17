@@ -12,7 +12,7 @@ Tailwind + Recharts + PapaParse) with no backend or cloud account required.
 
 ```bash
 npm install
-npm run dev       # http://localhost:5173
+npm run dev     
 npm test          # run the analytics test suite (20 tests)
 npm run build     # type-check + production build
 ```
@@ -105,11 +105,4 @@ from the browser to the provider. This is fine for a local/demo tool, but browse
 the key to the page and can hit CORS/rate limits. A production deployment should proxy LLM requests
 through a backend so the key is never client-side.
 
-## What changed from the Lovable original
 
-- Supabase backend -> client-side store with sample data, localStorage, and a validated in-browser
-  CSV importer (the original's upload was server/admin-only).
-- File-based TanStack routing -> react-router-dom.
-- Full shadcn/Radix component set -> a small set of Tailwind primitives (same visual design).
-- Added: significance testing, forecast confidence bands + seasonality, live LLM insights, CSV
-  validation, and a unit-test suite. The original KPI and rule-insight logic is reused unchanged.
